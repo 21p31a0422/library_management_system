@@ -1,0 +1,345 @@
+.return-books {
+    font-family: "Outfit", serif;
+   background-color: aliceblue;
+   height: 100vh;
+    
+}
+
+
+
+.return-books .container2 {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    width: 100%;
+    max-width: 1450px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+
+.return-books .title2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 8px;
+}
+
+.return-books .subtitle2 {
+    font-size: 1rem;
+    color: #718096;
+    margin-bottom: 24px;
+}
+
+.return-books .search-bar2 {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.return-books .search-input2 {
+    flex-grow: 1;
+    padding: 10px 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4a5568;
+    background-color: #ffffff;
+    transition: all 0.2s;
+}
+
+.return-books .search-input2:focus {
+    outline: none;
+    border-color: #a0aec0;
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+.return-books .search-button2 {
+    background-color: #4299e1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.return-books .search-button2:hover {
+    background-color: #3182ce;
+}
+
+.return-books .loan-details-section2 {
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    overflow-x: scroll;
+}
+
+.return-books .section-title2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 16px;
+}
+
+.return-books .loan-table2 {
+    width: 100%;
+    margin-right: 30px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.return-books .loan-table2 th,
+.return-books .loan-table2 td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.return-books .loan-table2 th {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #718096;
+    text-transform: uppercase;
+    width: 90px;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.return-books .loan-table2 tr:hover {
+    background-color: #f0f4f8;
+}
+
+.return-books .loan-table2 tbody tr:last-child {
+    height: 50px;
+    border-bottom: none;
+}
+
+.return-books .loan-table2 td {
+    border-bottom: none;
+    width: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.return-books .book-info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.return-books .book-title-cell2 {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.return-books .book-author-cell2 {
+    font-size: 0.875rem;
+    color: #718096;
+}
+
+.return-books .status-badge2 {
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.return-books .status2-returned {
+    background-color: #48bb78;
+}
+
+.return-books .status2-issued {
+    background-color: rgb(84, 255, 84);
+}
+
+.return-books .status2-renewed {
+    background-color: blueviolet;
+}
+
+.return-books .status2-overdue {
+    background-color: #f56565;
+}
+
+.return-books .loan-table2 th:nth-child(2),
+.return-books .loan-table2 td:nth-child(2) { width: 160px; }
+
+.return-books .loan-table2 th:nth-child(4),
+.return-books .loan-table2 td:nth-child(4) { width: 130px; }
+
+.return-books .loan-table2 th:nth-child(5),
+.return-books .loan-table2 td:nth-child(5) { width: 130px; }
+
+.return-books .loan-table2 th:nth-child(6),
+.return-books .loan-table2 td:nth-child(6) { width: 130px; }
+
+.return-books .loan-table2 th:nth-child(7),
+.return-books .loan-table2 td:nth-child(7) { width: 130px; }
+
+.return-books .loan-table2 th:nth-child(8),
+.return-books .loan-table2 td:nth-child(8) { width: 130px; }
+
+.return-books .loan-table2 th:nth-child(9),
+.return-books .loan-table2 td:nth-child(9) { width: 100px; }
+
+.return-books .loan-table2 th:nth-child(10),
+.return-books .loan-table2 td:nth-child(10) { width: 160px; }
+
+.return-books .loan-table2 th:nth-child(11),
+.return-books .loan-table2 td:nth-child(11) { width: 100px; }
+
+.return-books .loan-table2 tr {
+    height: 50px;
+}
+
+.return-books .return-button2 {
+    background-color: #4299e1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.return-books .renew-button2 {
+    background-color: plum;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.return-books .return-button2:hover {
+    background-color: #3182ce;
+}
+
+.return-books .renew-button2:hover {
+    background-color: #e685e6;
+}
+
+.return-books .return-message2 {
+    padding: 12px;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: #e6fffa;
+    color: #2c7a7b;
+    border: 1px solid #b2f5ea;
+    text-align: center;
+}
+
+.return-books .no-books-message2,
+.return-books .loading-message2,
+.return-books .error-message2 {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #718096;
+    padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .return-books .search-bar2 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .return-books .search-input2 {
+        width: 100%;
+    }
+}
+
+.return-books .pagination-controls2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.return-books .pagination-button2 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 90px;
+    text-align: center;
+}
+
+.return-books .pagination-button2:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.return-books .pagination-info2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.return-books .search-bar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.return-books .filter-bar2 {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.return-books .search-input2,
+.return-books .filter-dropdown2,
+.return-books .filter-date2 {
+    padding: 10px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4a5568;
+    margin: 5px;
+    margin-bottom: -10px;
+    background-color: #f7fafc;
+    transition: all 0.2s;
+    flex: 1;
+    min-width: 150px;
+}
+
+.return-books .search-input2:focus,
+.return-books .filter-dropdown2:focus,
+.return-books .filter-date2:focus {
+    outline: none;
+    border-color: #a0aec0;
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}

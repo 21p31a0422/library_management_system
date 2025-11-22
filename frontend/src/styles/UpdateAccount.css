@@ -1,0 +1,23 @@
+.update-account-container {
+    font-family: "Outfit", serif;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.form-container {
+    border: none;
+    text-align: left;
+    width: 100% !important;
+}
+
+form .form-control{
+  background-color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+.add-book{
+font-family: 'Outfit', sans-serif;
+height: 100%;
+display: flex;
+border: none;
+}
+
+.copies{
+  overflow-y: scroll;
+  padding-top: 10px;
+  max-height: 400px;
+}
+
+.form-container {
+  border: none;
+    text-align: left;
+    width: 100%;
+}
+
+.form-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+  text-align: left;
+}
+
+form .form-control{
+  background-color: whitesmoke;
+  font-size: 1.1rem;
+}
+.copies::-webkit-scrollbar {
+  background:white;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(208, 206, 206);
+  border-radius: 10px;
+  
+}

@@ -1,0 +1,60 @@
+.explore-page {
+  font-family: "Outfit", serif;
+  background-color: aliceblue;
+  height:100vh;
+  position: relative;
+
+
+}
+.explore-page .search{
+
+    border-radius: 20px;
+    width: 96%;
+    margin-left: 33px;
+    margin-bottom: 20px;
+   
+    
+}
+
+.explore-page input{
+    border-radius: 10px;
+}
+
+.explore-page .search-results {
+  position: absolute;
+  z-index: 1000;
+ max-height: 220px; 
+ width: 92%;
+  background: transparent;
+  border-bottom: 1 px solid black;
+}
+.explore-page .search-results::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+
+.explore-page .card:hover {
+  transform: scale(1.03);
+}
+
+.explore-page .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.explore-page .card-text {
+  color: #555;
+}
+
+.explore-page .result {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  height:300px;
+  max-width: 250px;
+}
+.explore-page .booksall
+{
+  width: 92%;
+  border-radius: 20px;
+  
+}

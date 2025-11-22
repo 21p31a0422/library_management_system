@@ -1,0 +1,204 @@
+/* 
+.books-wrapper .title {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+.books-wrapper .col
+{
+    display: flex;
+   
+
+}
+.books-wrapper
+{
+   background-color: aliceblue;
+  font-family: "Outfit", serif;
+}
+.books-wrapper .container-fluid{
+
+  margin-left: 20px;
+  padding: 20px;
+}
+.books-wrapper .card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  height:350px;
+  width: 300px;
+ 
+
+}
+
+.books-wrapper .btn:hover{
+  
+    background-color: #003cff;
+    color: white
+}
+.books-wrapper .btn{
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    width: 125px;
+    font-size: 17px;
+   
+}
+.books-wrapper .categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height:100px;
+  width: 100px;
+}
+.books-wrapper .card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.books-wrapper .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.books-wrapper .card-text {
+  color: #555;
+} */ */
+.books-wrapper .title {
+  text-align: left!important;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  
+
+}
+.filter-wrapper{
+display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: auto;
+}
+.books-wrapper .col
+{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+
+}
+.books-wrapper
+{
+  
+  font-family: "Outfit", serif;
+  
+
+
+}
+.books-wrapper .container-fluid{
+
+  margin-left: 0%;
+  padding: 20px;
+
+}
+.books-wrapper .allbooks {
+  margin-top:20px;
+  background: transparent;
+  
+}
+.books-wrapper .allbooks .card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background: none;
+  transition: transform 0.2s;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
+}
+.books-wrapper .allbooks .card-body {
+  text-align: center;
+  background-color: white;
+  height: 40px;
+  padding-top:10px;
+  border-top: 1px solid rgb(192, 186, 186);
+}
+.books-wrapper .categories{
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.books-wrapper .categories .card {
+padding: 0;
+  height:35px;
+  width: 150px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  color:black!important;
+  border-radius: 15px;
+
+  
+ 
+}
+.books-wrapper .categories .card:hover {
+  transform: scale(1.03);
+}
+.books-wrapper .categories .card-body {
+
+  transform: scale(1.03);
+}
+
+.books-wrapper .categories .category-card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  white-space: nowrap; 
+  margin-top: 3px;      /* Don't wrap to a new line */
+  text-overflow: ellipsis; 
+  color: black!important;
+}
+
+.books-wrapper .categories .card-text {
+  color: black;
+}
+
+.books-wrapper .btn:hover{
+  
+    background-color: #8c61b5;
+    color: white;
+
+}
+.books-wrapper .btn:disabled{
+  
+    background-color: #8c61b5;
+    color: white;
+
+}
+.books-wrapper .btn{
+    margin-top: 10px;
+    background-color: #8c61b5;
+    color: white;
+    width: 125px;
+    font-size: 17px;
+    margin-bottom: 10px;
+   
+}
+.books-wrapper .allbooks .card:hover {
+  transform: scale(1.03);
+}
+
+.books-wrapper .allbooks .card-title {
+  
+  font-size: 1.1rem;
+  font-weight: 600;
+  white-space: nowrap;       /* Don't wrap to a new line */
+  overflow: hidden;          /* Hide the overflowing text */
+  text-overflow: ellipsis; 
+  color:black!important
+}
+
+.books-wrapper .allbooks .card-text {
+  color: #555;
+}
+.books-wrapper .title {
+  text-align: left;
+  margin-top: 20px;
+}

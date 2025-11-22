@@ -1,0 +1,223 @@
+
+.bwr-container {
+    font-family: 'Outfit', sans-serif;
+    min-height: calc(100vh - 70px);
+    width: 100%;
+    max-width: 100vw;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.bwr-container .profile-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.bwr-container .title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.bwr-container .subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bwr-container .avatar-card {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px 0 rgba(30, 60, 90, 0.06);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    height: 270px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.bwr-container .avatar-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #e0e7ef;
+    box-shadow: 0 1px 3px 0 rgba(30, 60, 90, 0.06);
+    object-fit: cover;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    align-self: center;
+}
+
+.bwr-container .bwr-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #22334d;
+    margin: 12px 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.bwr-container .bwr-unique-data {
+    color: #a0aec0;
+    font-size: 0.92rem;
+    margin: 0 0 3px 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bwr-container .info-card {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px 0 rgba(30, 60, 90, 0.06);
+    padding: 16px;
+    margin-bottom: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bwr-container .info-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #22334d;
+    margin-bottom: 12px;
+}
+
+.bwr-container .info-label {
+    font-weight: 500;
+    color: #7b8ca6;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 0.85rem;
+}
+
+.bwr-container .info-input {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    padding: 5px 8px;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: 34px;
+}
+
+.bwr-container .info-btn,
+.bwr-container .security-btn {
+    background-color: #8c61b5;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.bwr-container .info-btn:hover,
+.bwr-container .security-btn:hover {
+    background-color: #7843A8;
+}
+
+.bwr-container .security-card {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 14px 16px;
+}
+
+/* .bwr-container .security-field {
+    background: #f7fafc;
+    color: black;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    padding: 5px 8px;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: 34px;
+} */
+
+/* @media (max-width: 900px) { */
+    /* .profile-container {
+        padding: 0 10px;
+
+    }
+
+    .avatar-card {
+        max-width: 180px;
+    }
+
+    .avatar-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .bwr-name {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    } */
+
+    /* Change this if you add anything in avatar card */
+    /* .bwr-empid { 
+        font-size: 0.8rem;
+        text-align: center;
+        width: 100%;
+    }
+} */
+
+/* @media (max-width: 768px) {
+    .bwr-container {
+        padding: 15px 8px;
+    }
+
+    .avatar-card {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 16px;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .avatar-img {
+        margin-bottom: 12px;
+        align-self: flex-start;
+    }
+
+    .bwr-name,
+    .bwr-empid {
+        text-align: left;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+} */

@@ -1,0 +1,397 @@
+/* .member-form .form-content {
+  width: 100%;
+  padding: 0;
+}
+
+.member-form .form-control-plaintext {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.member-form .badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.member-form .bg-success {
+  background-color: #198754 !important;
+  color: white !important;
+}
+
+.member-form .bg-warning {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+.member-form .form-label {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 0.95rem;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.member-form .form-group {
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+
+.member-form .form-control {
+  background-color: #f8f9fa !important;
+  font-size: 1rem;
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  height: auto;
+  min-height: 48px;
+  width: 100%;
+  color: #333;
+}
+
+.member-form .form-control:focus {
+  border-color: #8c61b5;
+  box-shadow: 0 0 0 0.2rem rgba(140, 97, 181, 0.2);
+  outline: none;
+}
+
+.member-form .password-input-group {
+  position: relative;
+  width: 100%;
+}
+
+.member-form .password-input-group .form-control {
+  padding-right: 3rem;
+  height: auto;
+  min-height: 48px;
+}
+
+.member-form .password-toggle {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  font-size: 1.1rem;
+}
+
+.member-form .password-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #5e35b1;
+}
+
+.member-form .password-input-group .form-control:focus ~ .password-toggle {
+  color: #8c61b5;
+}
+
+.member-form .password-toggle:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(140, 97, 181, 0.3);
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #8c61b5;
+}
+
+.member-form .password-input-group .form-floating {
+  margin-bottom: 1.25rem; 
+}
+
+.member-form .password-input-group .form-control {
+  padding-right: 3.5rem;
+  height: auto;
+  min-height: 60px;
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
+  background-color: #f8f9fa !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.member-form .password-toggle {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  font-size: 1.1rem;
+}
+
+.member-form .password-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #5e35b1;
+}
+
+.member-form .password-input-group .form-control:focus ~ .password-toggle {
+  color: #8c61b5;
+}
+
+.member-form .password-toggle:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(140, 97, 181, 0.3);
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #8c61b5;
+}
+
+.member-form .password-input-group .form-control:focus {
+  border-color: #8c61b5;
+  box-shadow: 0 0 0 0.2rem rgba(140, 97, 181, 0.2);
+  outline: none;
+}
+
+.member-form .password-input-group .form-floating > .form-control:focus ~ label,
+.member-form .password-input-group .form-floating > .form-control:not(:placeholder-shown) ~ label {
+  color: #8c61b5;
+  transform: scale(0.85) translateY(0.1rem) translateX(0.15rem);
+  opacity: 1;
+}
+
+.member-form .password-input-group .form-floating > label {
+  padding: 1rem 1rem 0.5rem;
+  color: #6c757d;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.member-form .btn {
+  padding: 0.7rem 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.member-form .btn i {
+  font-size: 0.9rem;
+}
+
+.member-form .btn-primary {
+  background-color: #8c61b5;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.member-form .btn-primary:hover {
+  background-color: #7a4f9e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(140, 97, 181, 0.3);
+}
+
+.member-form .btn-secondary {
+  background-color: #f5f5f5;
+  color: #555;
+  border: 1px solid #e0e0e0;
+}
+
+.member-form .btn-secondary:hover {
+  background-color: #e9e9e9;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+.member-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.member-form .invalid-feedback {
+  color: #dc3545;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.member-form .form-control:focus {
+  border-color: #8c61b5;
+  box-shadow: 0 0 0 0.2rem rgba(140, 97, 181, 0.25);
+}
+
+@media (max-width: 576px) {
+  .member-form .form-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .member-form .btn {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+  
+  .member-form .form-floating > .form-control {
+    padding: 1.1rem 1rem 0.5rem;
+    min-height: 52px;
+  }
+  
+  .member-form .form-floating > label {
+    font-size: 0.85rem;
+  }
+  
+  .member-form .form-floating > .form-control:focus ~ label,
+  .member-form .form-floating > .form-control:not(:placeholder-shown) ~ label {
+    transform: scale(0.85) translateY(0.2rem) translateX(0.15rem);
+  }
+} */
+/* .modalcontainer .member-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+  transition: all 0.3s ease; 
+}
+
+.modalcontainer .form-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.modalcontainer .form-control {
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.modalcontainer .form-control:focus {
+  border-color: #0d6efd; 
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.25);
+}
+
+.modalcontainer .invalid-feedback {
+  color: #dc3545; 
+  font-size: 13px;
+}
+
+.modalcontainer .password-input-group {
+  position: relative;
+}
+
+.modalcontainer .password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #6c757d;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modalcontainer .password-toggle:hover {
+  color: #0d6efd;
+}
+
+.modalcontainer .btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.modalcontainer .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.modalcontainer .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.modalcontainer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.modalcontainer .btn-secondary:hover {
+  background-color: #5c636a;
+} */
+
+.member-form{
+font-family: 'Outfit', serif;
+height: 100%;
+display: flex;
+border: none;
+}
+
+
+.member-form .form-container {
+  border: none;
+    text-align: left;
+    width: 100%;
+}
+
+.member-form .form-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.member-form .form-label {
+  font-weight: 500;
+  color: #444;
+  text-align: left;
+}
+
+.member-form form .form-control{
+  background-color: whitesmoke;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,111 @@
+.book-management-wrapper {
+  font-family: "Outfit", serif;
+  background-color: aliceblue;
+  height:100vh;
+
+}
+.book-management-wrapper .search{
+    background-color: white;
+    height: 80px;
+    border-radius: 20px;
+    margin-left: 200px;
+    width: 95%;
+    border: 1px solid whitesmoke;
+     box-shadow: 0px  4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    
+}
+
+.book-management-wrapper .data{
+  
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+       border: 1px solid whitesmoke;
+     box-shadow: 0px  4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+     /* overflow-x: scroll; */
+    
+}
+.book-management-wrapper input{
+    border-radius: 20px;
+}
+
+.book-management-wrapper.row .table {
+    border-radius: 30px;
+    
+}
+.book-management-wrapper.actions {
+  color: black;
+   background: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.book-management-wrapper .btn:hover{
+  
+    background-color: #8c61b5;
+    color: white
+}
+.book-management-wrapper .next {
+    margin-top: 10px;
+    background-color: #8c61b5;
+    color: white;
+    width: 125px;
+    font-size: 17px;
+}
+.book-management-wrapper table{
+    font-size: 18px;
+}
+.book-management-wrapper .list-group .custom-list-item {
+  background-color:  #f8f9fa;/* Light grey */
+  text-align: left;
+  cursor: pointer;
+}
+
+.book-management-wrapper .list-group .custom-edit-item {
+  background-color:  #f8f9fa;/* Light grey */
+  text-align: left;
+  cursor: pointer;
+  width: 175px;
+}
+.book-management-wrapper .search-results {
+  position: absolute;
+  z-index: 1000;
+ max-height: 220px; 
+ width: 92%;
+  background: transparent;
+  border-bottom: 1 px solid black;
+}
+.book-management-wrapper .search-results::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.book-management-wrapper .edit-options-popup {
+  position: absolute;
+  top: 50%; /* appear below the icon */
+  right: 65%;
+  right: 1;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid #ddd;
+  width: 160px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-management-wrapper .custom-edit-item {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.book-management-wrapper .custom-edit-item:hover {
+  background-color: #f0f0f0;
+}
+.book-management-container{
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  overflow-x: scroll;
+
+}

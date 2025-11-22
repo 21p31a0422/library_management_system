@@ -1,0 +1,158 @@
+.dashboard-page .dashboard-container {
+  font-family: "outfit",serif;
+  justify-self: center;
+  margin-top: 50px;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width:75%;
+}
+
+.dashboard-page .stat-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  width: 100%;
+  background-color: white!important;;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1)!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1052px) {
+  .dashboard-page .stat-col {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+}
+
+.dashboard-page .heading{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.dashboard-page .stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+.dashboard-page .title{
+  font-size: 2rem;
+}
+.dashboard-page .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  border-radius: 12px !important;
+}
+.dashboard-page{
+  background-color: aliceblue;
+  height: 100vh;
+}
+.dashboard-page .bg-primary {
+  background-color: #4e73df !important;
+}
+
+.dashboard-page .bg-success {
+  background-color: #1cc88a !important;
+}
+
+.dashboard-page .bg-danger {
+  background-color: #e74a3b !important;
+}
+
+.dashboard-page .bg-warning {
+  background-color: #f6c23e !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-page .stat-card {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.dashboard-page .stat-card:nth-child(1) { animation-delay: 0.1s; }
+.dashboard-page .stat-card:nth-child(2) { animation-delay: 0.2s; }
+.dashboard-page .stat-card:nth-child(3) { animation-delay: 0.3s; }
+.dashboard-page .stat-card:nth-child(4) { animation-delay: 0.4s; }
+
+@media (max-width: 768px) {
+  .dashboard-page .stat-card {
+    margin-bottom: 1rem;
+  }
+
+  .dashboard-page .icon-wrapper {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+
+  .dashboard-page h1 {
+    font-size: 1.75rem;
+  }
+}
+
+.dashboard-page .loading-spinner {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Count styling */
+.dashboard-page .stat-card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.dashboard-page .stat-card.total-books h1 {
+  color: #4e73df; /* blue */
+}
+
+.dashboard-page .stat-card.total-borrowers h1 {
+  color: #1cc88a; /* green */
+}
+
+.dashboard-page .stat-card.overdue-books h1 {
+  color: #e74a3b; /* red */
+}
+
+.dashboard-page .stat-card.active-borrowers h1 {
+  color: #f39c12; /* orange */
+}
+
+/* Title styling */
+.dashboard-page .stat-card p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #6c757d; /* gray */
+  margin: 0;
+}
+.dashboard-page .stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.dashboard-page .stat-col {
+ display: flex;
+ flex-direction: row;
+  gap: 50px;
+ /* max-width: 350px;  */
+}
+
+.dashboard-page .stat-card {
+  width: 100%;
+}
+

@@ -1,0 +1,76 @@
+/* Bookdescription.css */
+.bookdescription {
+  
+  text-align: left;
+ 
+}
+
+.bookdescription .book-info {
+  height: auto;
+  max-width: 80%;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.bookdescription .book-img {
+  background-color: whitesmoke;
+  text-align: center;
+  
+}
+.bookdescription .container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+ 
+}
+
+.bookdescription .img-fluid {
+   
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.bookdescription h4.fw-bold {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bookdescription p {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.bookdescription p.fw-semibold {
+  color: #333;
+  font-weight: 600;
+}
+
+.bookdescription .fw-bold {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bookdescription .table {
+  margin-top: 10px;
+}
+
+.bookdescription .table-borderless th {
+  color: #444;
+  font-weight: 600;
+  width: 40%;
+}
+
+.bookdescription .table-borderless td {
+  color: #555;
+}
+
+.bookdescription .table-borderless tr {
+  border-bottom: 1px solid #eee;
+}
+
+.bookdescription .table-borderless tr:last-child {
+  border-bottom: none;
+}

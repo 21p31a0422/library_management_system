@@ -1,0 +1,90 @@
+/* Scoped styles only for manager-nav page */
+.manager-nav .custom-nav {
+  font-size: 1.1rem;
+  color: #333;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  justify-content: center;
+}
+
+.manager-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.manager-nav .nav-container {
+  font-family: "Outfit", serif;
+  background-color: white !important;
+}
+
+.manager-nav .navbar-nav .nav-item {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.manager-nav .navbar-nav .nav-item .activeLink {
+color:#834cb7;
+}
+
+.manager-nav .dropdown {
+  box-shadow: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.manager-nav .no-caret::after {
+  display: none !important;
+}
+
+.manager-nav .profile-image {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.manager-nav .profile-image:hover {
+  border: 2px solid #333;
+}
+
+.manager-nav .navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.2s;
+  color: black;
+}
+
+.manager-nav .navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #8c61b5;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.manager-nav .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.manager-nav  .drop-down-menu 
+{
+  padding: 0;
+  text-align:center;
+  
+}
+.manager-nav  .drop-down-menu-item:hover 
+{
+  background-color:#8b60b3;
+  color: white;
+  text-align:center;
+}
+.manager-nav  .drop-down-menu-item 
+{
+  color:black;
+
+  
+}

@@ -1,0 +1,54 @@
+/* Main container inside modal */
+.all-details .form-content {
+  padding: 20px;
+  max-width: 600px; /* Prevents squishing */
+  margin: auto;
+  background-color: #fff;
+}
+
+/* Each row (label + value) */
+.all-details .form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.all-details .form-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+/* Value display (read-only look) */
+.all-details .form-control-plaintext {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  white-space: pre-wrap; /* Handles multi-line addresses */
+  word-break: break-word; /* Prevents overflow on long strings */
+}
+
+/* Badge styling overrides */
+.all-details .badge {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+/* Button row */
+.all-details .d-flex.justify-content-end {
+  margin-top: 20px;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 576px) {
+  .form-content {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
